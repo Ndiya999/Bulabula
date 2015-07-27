@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Properties.Comments">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAABAAAAAUBAAABAQAAAAAIAAQACAABAAAAAAA=</HashCode>
+      <FileName>BAL\Comments.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Event_Post" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Properties.Event_Post">
+    <Position X="3.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAACAAAAAAAAAAACQBAAAAAAAAAACAAAgAAAAAACA=</HashCode>
+      <FileName>BAL\Event_Post.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,614 @@
+﻿/* LEFT NEWSFEAD SECTION*/
+
+div#MainMiniprofile
+{
+   
+   width:50%;
+   height: 100px;
+   background: #e4e4e4;
+   padding: 5px auto 0 auto;
+   border:1px solid #c0c0c0;
+    
+ }
+ 
+ /*END +++++++++++++++++*/
+ 
+
+  .pretty {
+   
+    border: medium none;
+    font-family: Arial;
+    height: 135px;
+    opacity: 0.8;
+    padding: 20px;
+    width: 210px;
+}
+
+
+ .rightMenu
+ {
+        
+        width: 95%;  
+       
+ }
+  
+ .rightMenu ul li
+ {
+     
+     Border-top: 1px solid #faf8f8;
+     Border-bottom: 1px solid #d2d2d2;
+    
+     color: #636363;
+     
+     
+  }
+  .rightMenu ul
+  {
+      padding-bottom: 5px;
+    
+      background: #f1f1f1;
+      overflow: hidden;
+       -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+      }
+  
+  .rightMenu ul li a
+  {
+        display:block;
+        text-decoration: none;
+        padding: 3px 7px 3px 7px;
+        color: #636363;
+       font-size: 0.8em;
+      
+   }
+  .rightMenu ul li a:hover
+  {
+      background: #faf8f8;
+      color: #636363;
+      text-decoration: underline;
+      
+      
+   }
+  
+  div#filterMenu
+{
+    
+   
+   
+   display: none;
+   z-index: 4;
+   display: none;
+   position: absolute;
+   top: 167px;
+   left: 709.5px;
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #BEBEBE;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+
+ }
+ 
+.buttons a#filter
+{
+    background-image: url('../Images/dopDownNormal.gif');
+    background-repeat: no-repeat;
+    background-position:  56px 9px;
+    padding-right: 27px;
+}
+ .buttons a#filter:hover
+ {
+     background-image: url('../Images/dopDownHover.gif');
+    background-repeat: no-repeat;
+    background-position:  56px 9px;
+    padding-right: 27px;
+     
+  }
+ 
+ div#filterMenu ul li a
+ {
+     padding: 7px 14px;
+     color: #6E6E6E;
+     display: block;
+     font-size: 0.9em;
+     font-weight: bold;
+     text-decoration: none;
+     
+  }
+  
+  
+  
+  
+ div#filterMenu ul li a:hover
+{
+      background: #f5f5f5;
+         
+}
+         
+         
+  .bluePc
+{
+     background: #0164b1;
+   
+}
+
+ 
+ .rightMenu h4
+ {
+   color: #FFFFFF;
+   padding: 7px 7px;
+   font-weight: 600;
+   background-image: url('../Images/BlueTabsBg.gif');
+    background-repeat: repeat-x;
+    background-position: center center;
+   
+  }
+  
+  .rightMenu h4 span a
+  {
+      font-weight: normal;
+      display:inline; 
+      color: #FFFFFF;
+      font-size:0.7em;
+      font-weight: 500;
+      
+   }
+   .rightMenu h4 span a:hover
+   {
+       
+       color: #FFFFFF;
+       background: inherit;
+   }
+  
+ /*###########################################################################
+                                    HOME 
+############################################################################*/
+  
+.maintitle {
+   
+    border-color:  #c0c0c0;
+    background: none repeat scroll 0 0 #E4E2E2;
+    border-style: solid;
+    border-width: 1px 1px 0;
+    box-shadow: 0 -1px 2px rgba(0, 0, 0, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1) inset;
+    color: rgba(255, 255, 255, 0.8);
+   
+    font-weight: 500;
+    overflow: hidden;
+   
+}
+
+div#PostMenu
+{
+    background-position: center center;
+    clear: both; /* z-index: 1;
+      width: 400px;*/
+    box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.25);
+    margin-top: 15px;
+    background-image: url('../Images/tabsBg.gif');
+    background-repeat: repeat-x;
+}
+
+div#PostMenu ul li
+{
+  float:left; 
+
+ }
+
+
+div#PostMenu ul li a
+{
+        display:block;
+        text-decoration: none;
+        padding: 5px 7px 5px 7px;
+        color: #636363;
+        font-size: 1.2em;
+       
+        
+    
+}
+
+
+div#PostMenu ul li a:active
+{
+    background-image: url('../Images/tabsBgActive.gif');
+    background-repeat: repeat-x;
+    background-position: center center;
+}
+
+div#PostMenu ul li a:hover
+  {
+      background: #faf8f8;
+      color: #636363;
+      text-decoration: none;
+      cursor:default;
+      color: #636363;
+      background: #f1f1f1;
+}
+
+div#Posts
+{
+    
+    border: 1px solid #c0c0c0;
+   /* z-index: 2;
+    position:relative;
+    top: 45px;*/
+    padding: 10px 7px 5px 7px;
+    overflow: auto;
+	width: 100%
+ }
+
+.errorNotification
+{
+    
+    background: #ffebe8;
+    border: 1px solid #CD0A0A;
+    color: #6d2a2a;
+    font-size: 0.9em;
+    margin: 15px auto 0 auto;
+    padding: 10px;
+
+}
+.msgeSentNotification
+{
+      /*margin: -6px 0;*/
+    position: relative;
+    top: 8px;
+    background: #e2ebfe;
+    border: 1px solid #4a81ac;
+    font-size: 0.9em;
+    margin: 15px auto 0 auto;
+    padding: 10px;
+    z-index: 9;
+    -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+ }
+.rightAlign
+{
+    
+    text-align: right;
+    
+    
+    }
+    
+    
+    
+ div.ben ul#searchTxtBoxAutoCompleteEx_completionElem li
+ {
+     width: 100%;
+     
+     }
+ div#Help
+ {
+     
+     overflow:scroll;
+     
+     }
+     
+     
+p#dialogProgress
+{
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url('../Images/grayDeleteMsge.gif');
+}
+/*#######################################################################
+
+                    HELP PAGE
+#######################################################################*/
+
+div#helpCenter
+{
+    padding: 7px;
+    
+    
+}
+div#helpCenter div ol
+{
+    
+    margin: 5px; 
+    padding-left: 10px;  
+    
+ }
+
+div#helpCenter div ol li
+{
+    padding-bottom: 5px;
+    color: #0464af;
+    }
+div#helpCenter h2
+{
+    color: #A3ADB5;
+    margin: 3px 10px 10px 0;
+    border-bottom: 1px solid  #A3ADB5;
+    
+    
+ }
+ div#helpCenter h4
+ {
+     color: #00477d;
+     margin-left: 10px;
+     
+     }
+ div#helpCenter h3
+ {
+     
+     color: #00477d;
+ }
+ 
+ 
+div#helpCenter img
+{
+    padding: 5px;
+    border: 1px solid  #A3ADB5;
+    
+    
+    }
+    
+div#tutorials div
+{
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed  #A3ADB5;
+    
+    }
+    /*################################################
+
+                   Posts
+##########################################################*/
+
+.aPost
+{
+    
+        margin-bottom: 15px;
+        border-bottom: 1px dashed  #A3ADB5;
+        color: #A3ADB5;
+        overflow:auto;
+        
+ }
+ .aPost a 
+ {
+     cursor: pointer;
+     
+ }
+ 
+.aPost p 
+{
+    padding: 10px;
+    
+    
+}
+    
+.commentSection
+{
+
+    height: auto;
+    overflow: auto;
+    background: #f7f7f7;
+    
+    }
+
+.commentSection div 
+{
+    
+     width: 80%;       
+    
+}
+.postinfo a
+{
+    
+       
+       font-weight: bold;
+     line-height: 22px;
+       color: #A3ADB5;
+       text-decoration: none;  
+       
+    
+}
+.postinfo a:hover
+{
+        color: #1079ca;
+        text-decoration: underline;   
+    
+ }
+ .postinfo 
+ {
+         font-size: 0.765em; 
+         vertical-align:text-top;
+        margin-bottom: -14px;
+ }
+div.allComments
+{
+    display: none;
+   font-size: 0.8em;
+   background: #f7f7f7;
+   color: #636363;
+   padding: 5px;
+}
+
+div.allComments h4
+{
+    font-size: 1.1em; 
+    font-weight: bold;
+    color: #636363;
+    padding-bottom: 10px;
+
+}
+
+div.aComment
+{
+      padding-left: 7%; 
+      border-bottom: 1px solid #FFFFFF;   
+      width: 75%;
+      line-height: 16px;
+    
+}
+
+div.aComment:first
+{
+    
+     border-top: 1px solid #FFFFFF;
+    
+ }
+
+div.aComment a
+{
+    color: #A3ADB5; 
+    text-decoration: none;   
+}
+
+div.aComment p
+{
+        
+        padding: 3px;  
+}
+div.aComment a:hover
+{
+   color: #1079ca;
+   text-decoration: underline;  
+       
+}
+.deleteComment 
+{
+    
+    width: 19.5%;    
+    
+}
+
+.deleteComment a
+{
+        line-height: 10px;
+        margin-left: 10px;    
+    
+}
+
+.btnHomePost a
+{
+    font-size: 0.765em;
+    padding: 4px 6px;
+    margin: 0 0 7px 0;
+    
+}
+
+.commentWrapper
+{
+    height: 30px;
+    width: 100%;
+}
+
+.width50%
+ {
+   width:50%;   
+
+}
+/*
+ .bubbleInfo {
+position: relative;
+width: 150px;
+height: 150px;
+
+}
+.bubbleInfo img
+{
+    margin: 300px 500px;
+    
+    }
+
+.popup {
+position: absolute;
+display: none;  keeps the popup hidden if no JS available 
+background: black;
+width: 100px;
+height: 100px;
+border: 1px solid #A3ADB5;
+}
+
+.popbox {
+  margin:0px auto;
+  text-align:center;
+  position:relative;
+}
+*/
+
+  .collapse { position:relative; }
+
+ /* .open {
+    background:#DDD;
+    border:solid 1px #FFF;
+    border-radius:5px;
+    box-shadow: 0px 0px 5px #CCC;
+    background:-webkit-gradient(linear,left top,left bottom,from(#f4f4f4),to(#e8e8e8));
+    background:-moz-linear-gradient(top,#f4f4f4,#e8e8e8);
+    background:linear-gradient(top,#f4f4f4,#e8e8e8);
+    padding:8px;
+  }*/
+
+    .box {
+      display:block;
+     /* display:none;*/
+      background:#FFF;
+      border:solid 1px #BBBBBB;
+      border-radius:5px;
+      box-shadow:0px 0px 15px #999;
+      position:absolute;
+    }
+
+      .box a.close {
+       color:red;
+      
+       text-decoration:underline;
+      }
+
+      .arrow {
+      	width: 0;
+      	height: 0;
+      	border-left: 11px solid transparent;
+      	border-right: 11px solid transparent;
+      	border-bottom: 11px solid #FFF;
+      	position:absolute;
+      	left:1px;
+      	top:-10px;
+      	z-index:1001;
+      }
+
+      .arrow-border {
+      	width: 0;
+      	height: 0;
+      	border-left: 11px solid transparent;
+      	border-right: 11px solid transparent;
+      	border-bottom: 11px solid #BBBBBB;
+      	position:absolute;
+      	top:-12px;
+      	z-index:1000;
+      }
+/*div#tagMenu
+{
+   display: none;
+   z-index: 10;
+   display: none;
+   position: absolute;
+   width: 256px;
+     min-height: 173px;
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #BEBEBE; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 5px;
+}
+*/
+
+.tagSearchBox
+{
+    
+    background: none repeat scroll 0 0 #FBFBFB;
+    border: 1px solid #A3ADB5;
+   width: 100%;
+    font-size: 0.9em;
+    line-height: 1;
+    padding: 3px;
+    box-shadow: 1px 1px 2px rgba(200, 200, 200, 0.2) inset;
+    
+    }
+    
+   div.Menu .ui-autocomplete
+   {
+       width: 210px;
+       font-size: 0.9em;
+ }

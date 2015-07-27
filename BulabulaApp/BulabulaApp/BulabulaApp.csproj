@@ -1,0 +1,603 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{DF2ED2A1-5F55-4AB2-A8FE-1791932026B7}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BulabulaApp</RootNamespace>
+    <AssemblyName>BulabulaApp</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+    <SilverlightApplicationList>
+    </SilverlightApplicationList>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=4.1.60623.0, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Web.Infrastructure">
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.4.5.9\lib\net40\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="SignalR">
+      <HintPath>..\packages\SignalR.Server.0.5.3\lib\net40\SignalR.dll</HintPath>
+    </Reference>
+    <Reference Include="SignalR.Hosting.AspNet">
+      <HintPath>..\packages\SignalR.Hosting.AspNet.0.5.3\lib\net40\SignalR.Hosting.AspNet.dll</HintPath>
+    </Reference>
+    <Reference Include="SignalR.Hosting.Common">
+      <HintPath>..\packages\SignalR.Hosting.Common.0.5.3\lib\net40\SignalR.Hosting.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.DirectoryServices.AccountManagement" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Ajax_Processors\ProcessData.aspx" />
+    <Content Include="bin\AjaxControlToolkit.dll" />
+    <Content Include="bin\AjaxControlToolkit.pdb" />
+    <Content Include="bin\ar\AjaxControlToolkit.resources.dll" />
+    <Content Include="bin\cs\AjaxControlToolkit.resources.dll" />
+    <Content Include="bin\de\AjaxControlToolkit.resources.dll" />
+    <Content Include="bin\es\AjaxControlToolkit.resources.dll" />
+    <Content Include="bin\fr\AjaxControlToolkit.resources.dll" />
+    <Content Include="bin\he\AjaxControlToolkit.resources.dll" />
+    <Content Include="bin\hi\AjaxControlToolkit.resources.dll" />
+    <Content Include="bin\it\AjaxControlToolkit.resources.dll" />
+    <Content Include="bin\ja\AjaxControlToolkit.resources.dll" />
+    <Content Include="bin\ko\AjaxControlToolkit.resources.dll" />
+    <Content Include="bin\nl\AjaxControlToolkit.resources.dll" />
+    <Content Include="bin\pt\AjaxControlToolkit.resources.dll" />
+    <Content Include="bin\ru\AjaxControlToolkit.resources.dll" />
+    <Content Include="bin\tr-TR\AjaxControlToolkit.resources.dll" />
+    <Content Include="bin\zh-CHS\AjaxControlToolkit.resources.dll" />
+    <Content Include="bin\zh-CHT\AjaxControlToolkit.resources.dll" />
+    <Content Include="ClientBin\Video.xap" />
+    <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_55_fbf9ee_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_75_dadada_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_75_e6e6e6_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_highlight-soft_75_cccccc_1x100.png" />
+    <Content Include="Content\themes\base\images\ui-icons_222222_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_454545_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_888888_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="Content\themes\base\jquery-ui.css" />
+    <Content Include="Content\themes\base\jquery.ui.accordion.css" />
+    <Content Include="Content\themes\base\jquery.ui.all.css" />
+    <Content Include="Content\themes\base\jquery.ui.autocomplete.css" />
+    <Content Include="Content\themes\base\jquery.ui.base.css" />
+    <Content Include="Content\themes\base\jquery.ui.button.css" />
+    <Content Include="Content\themes\base\jquery.ui.core.css" />
+    <Content Include="Content\themes\base\jquery.ui.datepicker.css" />
+    <Content Include="Content\themes\base\jquery.ui.dialog.css" />
+    <Content Include="Content\themes\base\jquery.ui.progressbar.css" />
+    <Content Include="Content\themes\base\jquery.ui.resizable.css" />
+    <Content Include="Content\themes\base\jquery.ui.selectable.css" />
+    <Content Include="Content\themes\base\jquery.ui.slider.css" />
+    <Content Include="Content\themes\base\jquery.ui.tabs.css" />
+    <Content Include="Content\themes\base\jquery.ui.theme.css" />
+    <Content Include="Content\themes\base\minified\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="Content\themes\base\minified\images\ui-bg_flat_75_ffffff_40x100.png" />
+    <Content Include="Content\themes\base\minified\images\ui-bg_glass_55_fbf9ee_1x400.png" />
+    <Content Include="Content\themes\base\minified\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="Content\themes\base\minified\images\ui-bg_glass_75_dadada_1x400.png" />
+    <Content Include="Content\themes\base\minified\images\ui-bg_glass_75_e6e6e6_1x400.png" />
+    <Content Include="Content\themes\base\minified\images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="Content\themes\base\minified\images\ui-bg_highlight-soft_75_cccccc_1x100.png" />
+    <Content Include="Content\themes\base\minified\images\ui-icons_222222_256x240.png" />
+    <Content Include="Content\themes\base\minified\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="Content\themes\base\minified\images\ui-icons_454545_256x240.png" />
+    <Content Include="Content\themes\base\minified\images\ui-icons_888888_256x240.png" />
+    <Content Include="Content\themes\base\minified\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="Content\themes\base\minified\jquery-ui.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.accordion.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.autocomplete.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.button.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.core.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.datepicker.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.dialog.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.progressbar.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.resizable.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.selectable.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.slider.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.tabs.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.theme.min.css" />
+    <Content Include="file.png" />
+    <Content Include="FileDownloader.aspx" />
+    <Content Include="helpFiles\PageHelp.htm" />
+    <Content Include="Images\add.png" />
+    <Content Include="Images\bigLoader2.gif" />
+    <Content Include="Images\block.png" />
+    <Content Include="Images\blueBarLoader.gif" />
+    <Content Include="Images\BlueCircleloader.gif" />
+    <Content Include="Images\BlueCircleloader2.gif" />
+    <Content Include="Images\bodyBg.gif" />
+    <Content Include="Images\CreateEvent.PNG" />
+    <Content Include="Images\delete.png" />
+    <Content Include="Images\DeleteComment.PNG" />
+    <Content Include="Images\DeleteComment1.PNG" />
+    <Content Include="Images\Error_Pages\401.htm" />
+    <Content Include="Images\Error_Pages\404.htm" />
+    <Content Include="Images\Error_Pages\500.htm" />
+    <Content Include="helpFiles\composeMessage.htm" />
+    <Content Include="helpFiles\homePageHelp.htm" />
+    <Content Include="helpFiles\Inbox.htm" />
+    <Content Include="Images\bigLoader.gif" />
+    <Content Include="Images\blueLoader..gif" />
+    <Content Include="Images\blueLoader.gif" />
+    <Content Include="Images\BlueTabsBg.gif" />
+    <Content Include="Images\dopDownHover.gif" />
+    <Content Include="Images\dopDownNormal.gif" />
+    <Content Include="Images\grayDeleteMsge.gif" />
+    <Content Include="Images\greenTitle.gif" />
+    <Content Include="Images\How to comment.PNG" />
+    <Content Include="Images\lightBlueTitle.gif" />
+    <Content Include="Images\LikePost.PNG" />
+    <Content Include="Images\loader.gif" />
+    <Content Include="Images\loaderTextbox.gif" />
+    <Content Include="Images\loaderTextbox2.gif" />
+    <Content Include="Images\loaderTextboxn.gif" />
+    <Content Include="Images\mail_edit.png" />
+    <Content Include="Images\messageContentHelp.jpg" />
+    <Content Include="Images\nav-icons.png" />
+    <Content Include="Images\pbar-ani.gif" />
+    <Content Include="Images\phpThumb_generated_thumbnailpng.png" />
+    <Content Include="Images\PicPost1.PNG" />
+    <Content Include="Images\PicPost2.PNG" />
+    <Content Include="Images\Pointer.gif" />
+    <Content Include="Images\PostTxt1.PNG" />
+    <Content Include="Images\PostTxt2.PNG" />
+    <Content Include="Images\ProfilePic.png" />
+    <Content Include="Images\profile_placeholder.png" />
+    <Content Include="Images\recipientSelection.jpg" />
+    <Content Include="Images\redTitle.gif" />
+    <Content Include="Images\replyActive.png" />
+    <Content Include="Images\replyNormal.png" />
+    <Content Include="Images\report.gif" />
+    <Content Include="Images\searchFriend.jpg" />
+    <Content Include="Images\selectRecipient.jpg" />
+    <Content Include="Images\sendButtonHelp.jpg" />
+    <Content Include="Images\sendMessageHelp.jpg" />
+    <Content Include="Images\tabProgress.gif" />
+    <Content Include="Images\tabsBg.gif" />
+    <Content Include="Images\tabsBgActive.gif" />
+    <Content Include="Images\Tag1.PNG" />
+    <Content Include="Images\Tag2.PNG" />
+    <Content Include="Images\textboxProgress.gif" />
+    <Content Include="Images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="Images\ui-bg_flat_75_ffffff_40x100.png" />
+    <Content Include="Images\ui-bg_flat_95_fef1ec_40x100.png" />
+    <Content Include="Images\ui-bg_glass_55_fbf9ee_1x400.png" />
+    <Content Include="Images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="Images\ui-bg_glass_75_dadada_1x400.png" />
+    <Content Include="Images\ui-bg_glass_75_e6e6e6_1x400.png" />
+    <Content Include="Images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="Images\ui-bg_highlight-hard_80_faf8f8_1x100.png" />
+    <Content Include="Images\ui-bg_highlight-soft_75_cccccc_1x100.png" />
+    <Content Include="Images\ui-bg_highlight-soft_75_eceaea_1x100.png" />
+    <Content Include="Images\ui-icons_222222_256x240.png" />
+    <Content Include="Images\ui-icons_888888_256x240.png" />
+    <Content Include="Images\ui-icons_454545_256x240.png" />
+    <Content Include="Images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="Images\unblock.png" />
+    <Content Include="Images\UnlikePost.PNG" />
+    <Content Include="Images\uploaderProgress.gif" />
+    <Content Include="ComposeMessage.aspx" />
+    <Content Include="Images\animated_logo.gif" />
+    <Content Include="Images\btnLogin.png" />
+    <Content Include="Images\btnLoginActive.png" />
+    <Content Include="Images\btnLogout.png" />
+    <Content Include="Images\errorBg.png" />
+    <Content Include="Images\icons\documents.png" />
+    <Content Include="Images\icons\gogreen.png" />
+    <Content Include="Images\icons\help.png" />
+    <Content Include="Images\icons\license.png" />
+    <Content Include="Images\icons\message.png" />
+    <Content Include="Images\icons\mobile.png" />
+    <Content Include="Images\icons\pictures.png" />
+    <Content Include="Images\icons\profile.png" />
+    <Content Include="Images\icons\settings.png" />
+    <Content Include="Images\icons\tag.png" />
+    <Content Include="Images\icons\user.png" />
+    <Content Include="Images\icons\video.png" />
+    <Content Include="Images\Koala.jpg" />
+    <Content Include="Images\loginBg.png" />
+    <Content Include="Images\LoginLogo.gif" />
+    <Content Include="Images\Logo.png" />
+    <Content Include="Images\logo16x16.ico" />
+    <Content Include="Images\LogoClean.gif" />
+    <Content Include="Images\menuBg.gif" />
+    <Content Include="Images\miniMenuBg.gif" />
+    <Content Include="Images\not.png" />
+    <Content Include="Images\search.gif" />
+    <Content Include="Images\search.png" />
+    <Content Include="Images\VidPost.PNG" />
+    <Content Include="Login.aspx" />
+    <Content Include="Profile.aspx" />
+    <Content Include="qunit-git\qunit-git.css" />
+    <Content Include="qunit-git\qunit-git.js" />
+    <Content Include="Scripts\bulabula.js" />
+    <Content Include="Scripts\Charts\RGraph.bar.js" />
+    <Content Include="Scripts\Charts\RGraph.common.core.js" />
+    <Content Include="Scripts\Charts\RGraph.common.dynamic.js" />
+    <Content Include="Scripts\Charts\RGraph.common.effects.js" />
+    <Content Include="Scripts\Charts\RGraph.common.tooltips.js" />
+    <Content Include="Scripts\Charts\RGraph.common.zoom.js" />
+    <Content Include="Scripts\Charts\RGraph.hbar.js" />
+    <Content Include="Scripts\Charts\RGraph.line.js" />
+    <Content Include="Scripts\Charts\RGraph.pie.js" />
+    <Content Include="Scripts\hubs.js" />
+    <Content Include="Scripts\jquery-1.7.1-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.8.2-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.8.2.js" />
+    <Content Include="Scripts\jquery-1.8.2.min.js" />
+    <Content Include="Scripts\jquery-ui-1.8.18.custom.min.js" />
+    <Content Include="Scripts\jquery-ui-1.8.23.js" />
+    <Content Include="Scripts\jquery-ui-1.8.23.min.js" />
+    <Content Include="Scripts\jquery.address-1.4.min.js" />
+    <Content Include="Scripts\jquery.BetterGrow.min.js" />
+    <Content Include="Scripts\jquery.meio.mask.js" />
+    <Content Include="Scripts\jquery.placeholder.min.js" />
+    <Content Include="Scripts\jquery.placeholder2.min.js" />
+    <Content Include="Scripts\jquery.ptTimeSelect.js" />
+    <Content Include="Scripts\jquery.signalR-0.5.3.js" />
+    <Content Include="Scripts\jquery.signalR-0.5.3.min.js" />
+    <Content Include="Scripts\jquery.tipTip.js" />
+    <Content Include="Scripts\jquery.ui.autocomplete.min.js" />
+    <Content Include="Scripts\jquery.ui.position.min.js" />
+    <Content Include="Scripts\popbox.min.js" />
+    <Content Include="Global.asax" />
+    <Content Include="Styles\Copy of Site2.css" />
+    <Content Include="Styles\demos.css" />
+    <Content Include="Styles\jquery.ptTimeSelect.css" />
+    <Content Include="Styles\jquery.ui.all.css" />
+    <Content Include="Styles\jquery.ui.autocomplete.css" />
+    <Content Include="Styles\jquery.ui.core.css" />
+    <Content Include="Styles\jquery.ui.datepicker.css" />
+    <Content Include="Styles\jquery.ui.dialog.css" />
+    <Content Include="Styles\jquery.ui.resizable.css" />
+    <Content Include="Styles\jquery.ui.selectable.css" />
+    <Content Include="Styles\jquery.ui.tabs.css" />
+    <Content Include="Styles\jquery.ui.theme.css" />
+    <Content Include="Styles\Site.css" />
+    <Content Include="Styles\Site2.css" />
+    <Content Include="Styles\tipTip.css" />
+    <Content Include="TestPage.htm" />
+    <Content Include="TooltipTest.aspx" />
+    <Content Include="VideoPage.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="rightColumn.aspx" />
+    <Content Include="Home.aspx" />
+    <Content Include="Inbox.aspx" />
+    <Content Include="ViewMessages.aspx" />
+    <Content Include="Group.aspx" />
+    <Content Include="Friends.aspx" />
+    <Content Include="Administration.aspx" />
+    <Content Include="WebServices\FriendWebservice.asmx" />
+    <Content Include="WebServices\Notification.asmx" />
+    <Content Include="WebServices\postsWebservice.asmx" />
+    <Content Include="WebServices\processComments.asmx" />
+    <Content Include="WebServices\processMessages.asmx" />
+    <Content Include="WebServices\Reporting.asmx" />
+    <Content Include="WebServices\Searchfriend.asmx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Ajax_Processors\ProcessData.aspx.cs">
+      <DependentUpon>ProcessData.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ajax_Processors\ProcessData.aspx.designer.cs">
+      <DependentUpon>ProcessData.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BAL\Administrator.cs" />
+    <Compile Include="BAL\Article_Post.cs" />
+    <Compile Include="BAL\AutoCompleteDTO.cs" />
+    <Compile Include="BAL\CustomHtmlEditor.cs" />
+    <Compile Include="BAL\File_Post.cs" />
+    <Compile Include="BAL\Friend.cs" />
+    <Compile Include="BAL\Group.cs" />
+    <Compile Include="BAL\Group_Member.cs" />
+    <Compile Include="BAL\Member.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BAL\Membership.cs" />
+    <Compile Include="BAL\MembersInGroups.cs" />
+    <Compile Include="BAL\Member_Friend.cs" />
+    <Compile Include="BAL\Member_Status.cs" />
+    <Compile Include="BAL\Message.cs" />
+    <Compile Include="BAL\Messages.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BAL\Message_Friend.cs" />
+    <Compile Include="BAL\Notification.cs" />
+    <Compile Include="BAL\Photo_Post.cs" />
+    <Compile Include="BAL\Post.cs" />
+    <Compile Include="BAL\Question.cs" />
+    <Compile Include="BAL\Rating.cs" />
+    <Compile Include="BAL\Report.cs" />
+    <Compile Include="BAL\Response.cs" />
+    <Compile Include="BAL\Status.cs" />
+    <Compile Include="BAL\Survey.cs" />
+    <Compile Include="BAL\Tag.cs" />
+    <Compile Include="BAL\Text_Post.cs" />
+    <Compile Include="BAL\Video_Post.cs" />
+    <Compile Include="BAL\Comments.cs" />
+    <Compile Include="BAL\Event_Post.cs" />
+    <Compile Include="DAL\ActiveDirectoryDAL.cs" />
+    <Compile Include="DAL\AdministratorTasksDAL.cs" />
+    <Compile Include="DAL\ChatDAL.cs" />
+    <Compile Include="DAL\FriendshipDAL.cs" />
+    <Compile Include="DAL\GroupsDAL.cs" />
+    <Compile Include="DAL\LoginDAL.cs" />
+    <Compile Include="DAL\MemberInfoDAL.cs" />
+    <Compile Include="DAL\NewsfeedDAL.cs" />
+    <Compile Include="DAL\MessagesDAL.cs" />
+    <Compile Include="DAL\NotificationDAL.cs" />
+    <Compile Include="DAL\PostDAL.cs" />
+    <Compile Include="DAL\RateAndTagDAL.cs" />
+    <Compile Include="DAL\ReportPostDAL.cs" />
+    <Compile Include="DAL\ReportsDAL.cs" />
+    <Compile Include="DAL\SurveyDAL.cs" />
+    <Compile Include="DispayImage.ashx.cs">
+      <DependentUpon>DispayImage.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="FileDownloader.aspx.cs">
+      <DependentUpon>FileDownloader.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FileDownloader.aspx.designer.cs">
+      <DependentUpon>FileDownloader.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ComposeMessage.aspx.cs">
+      <DependentUpon>ComposeMessage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ComposeMessage.aspx.designer.cs">
+      <DependentUpon>ComposeMessage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Other_Classes\ClientUpdate.cs" />
+    <Compile Include="Other_Classes\Reusable_Methods.cs" />
+    <Compile Include="Other_Classes\SSTCryptographer.cs" />
+    <Compile Include="ProcessVideo.ashx.cs">
+      <DependentUpon>ProcessVideo.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Profile.aspx.cs">
+      <DependentUpon>Profile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Profile.aspx.designer.cs">
+      <DependentUpon>Profile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="ProfilePicHandler.ashx.cs">
+      <DependentUpon>ProfilePicHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="MasterPage.Master.cs">
+      <DependentUpon>MasterPage.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPage.Master.designer.cs">
+      <DependentUpon>MasterPage.Master</DependentUpon>
+    </Compile>
+    <Compile Include="rightColumn.aspx.cs">
+      <DependentUpon>rightColumn.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="rightColumn.aspx.designer.cs">
+      <DependentUpon>rightColumn.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Inbox.aspx.cs">
+      <DependentUpon>Inbox.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Inbox.aspx.designer.cs">
+      <DependentUpon>Inbox.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ViewMessages.aspx.cs">
+      <DependentUpon>ViewMessages.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ViewMessages.aspx.designer.cs">
+      <DependentUpon>ViewMessages.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Group.aspx.cs">
+      <DependentUpon>Group.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Group.aspx.designer.cs">
+      <DependentUpon>Group.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Friends.aspx.cs">
+      <DependentUpon>Friends.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Friends.aspx.designer.cs">
+      <DependentUpon>Friends.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TooltipTest.aspx.cs">
+      <DependentUpon>TooltipTest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TooltipTest.aspx.designer.cs">
+      <DependentUpon>TooltipTest.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="VideoPage.aspx.cs">
+      <DependentUpon>VideoPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="VideoPage.aspx.designer.cs">
+      <DependentUpon>VideoPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Administration.aspx.cs">
+      <DependentUpon>Administration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administration.aspx.designer.cs">
+      <DependentUpon>Administration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebServices\FriendWebservice.asmx.cs">
+      <DependentUpon>FriendWebservice.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WebServices\Notification.asmx.cs">
+      <DependentUpon>Notification.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WebServices\postsWebservice.asmx.cs">
+      <DependentUpon>postsWebservice.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WebServices\processComments.asmx.cs">
+      <DependentUpon>processComments.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WebServices\processMessages.asmx.cs">
+      <DependentUpon>processMessages.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WebServices\Reporting.asmx.cs">
+      <DependentUpon>Reporting.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WebServices\Searchfriend.asmx.cs">
+      <DependentUpon>Searchfriend.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Git\" />
+    <Folder Include="Images\Charts\" />
+    <Folder Include="Messages\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="MasterPage.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\AjaxControlToolkit.dll.refresh" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ClassDiagram2.cd">
+      <SubType>Designer</SubType>
+    </None>
+    <Content Include="ProfilePicHandler.ashx" />
+    <Content Include="DispayImage.ashx" />
+    <Content Include="ProcessVideo.ashx" />
+    <Content Include="packages.config" />
+    <None Include="Properties\PublishProfiles\Profile1.pubxml" />
+    <None Include="qunit-git\jQuery JavaScript Library.pdf" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>23455</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

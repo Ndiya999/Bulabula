@@ -1,0 +1,15 @@
+
+pre.code {
+    display: block;
+    border-radius: 15px;
+    border: 1px dashed #aaa;
+    padding: 5px;
+    background-color: #eee;
+}
+.ui-helper-reset {
+    font-size: 85%;
+}
+.ui-tabs .ui-tabs-nav li a 
+{
+    padding: 0.1em 0.4em;
+}

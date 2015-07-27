@@ -1,0 +1,12 @@
+G:\BulabulaApp\Video\Bin\Debug\Video.dll
+G:\BulabulaApp\Video\Bin\Debug\Video.pdb
+G:\BulabulaApp\Video\Bin\Debug\AppManifest.xaml
+G:\BulabulaApp\Video\Bin\Debug\Video.xap
+G:\BulabulaApp\Video\Bin\Debug\VideoTestPage.html
+G:\BulabulaApp\Video\obj\Debug\ResolveAssemblyReference.cache
+G:\BulabulaApp\Video\obj\Debug\App.g.i.cs
+G:\BulabulaApp\Video\obj\Debug\MainPage.g.i.cs
+G:\BulabulaApp\Video\obj\Debug\Video.g.resources
+G:\BulabulaApp\Video\obj\Debug\Video.dll
+G:\BulabulaApp\Video\obj\Debug\Video.pdb
+G:\BulabulaApp\Video\obj\Debug\XapCacheFile.xml

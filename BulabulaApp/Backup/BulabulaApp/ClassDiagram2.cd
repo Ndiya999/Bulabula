@@ -1,0 +1,396 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BulabulaApp.Ajax_Processors.ProcessData" Collapsed="true">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAIAAAA=</HashCode>
+      <FileName>Ajax_Processors\ProcessData.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BulabulaApp.Administrator" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QUAAAAGAAAAAgAQAAACAAEAAAABAAAQAAACgAEBAIAA=</HashCode>
+      <FileName>BAL\Administrator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BulabulaApp.Article_Post" Collapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAEEAAAARAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BAL\Article_Post.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BulabulaApp.AutoCompleteDTO" Collapsed="true">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>BAL\AutoCompleteDTO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BulabulaApp.Comments" Collapsed="true">
+    <Position X="12.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAUBAAABAQAAAAAIAAQACAABAAAAAAA=</HashCode>
+      <FileName>BAL\Comments.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BulabulaApp.Event_Post" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAACAAAAAgAAEAACQBAAAkAIAACACAAAgAIEAAACA=</HashCode>
+      <FileName>BAL\Event_Post.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BulabulaApp.File_Post" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAFAAAABAAAAAAAEAAAABEAAQABAAEA=</HashCode>
+      <FileName>BAL\File_Post.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BulabulaApp.Friend" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BAL\Friend.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BulabulaApp.Group" Collapsed="true">
+    <Position X="11" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAEAAAABAABAAABQQAAAEAAAAAAAAABAAAAAAE=</HashCode>
+      <FileName>BAL\Group.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BulabulaApp.Group_Member" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAABAABAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BAL\Group_Member.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BulabulaApp.Member" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEgAIADIgCAAhIAABAYAAAQCEAAAABAAAAAAAAAA=</HashCode>
+      <FileName>BAL\Member.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BulabulaApp.Member_Friend" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAABAAAAAQAAAAABAgAAAAIAAAQAAEA=</HashCode>
+      <FileName>BAL\Member_Friend.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BulabulaApp.Member_Status" Collapsed="true">
+    <Position X="9.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAACgABAAAAAQAAAAAAAAAAAAAAIAACACA=</HashCode>
+      <FileName>BAL\Member_Status.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BulabulaApp.Message" Collapsed="true">
+    <Position X="12.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAAAAAQAABAAAAAQEAAgABAAIAAA=</HashCode>
+      <FileName>BAL\Message.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BulabulaApp.Message_Friend" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgIAAAACAABAAAAAAAAAAAAAAABCAAEAAAABAAAAAA=</HashCode>
+      <FileName>BAL\Message_Friend.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BulabulaApp.Messages" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAAAAAQAABAAAAAQEAAgABAAIAAA=</HashCode>
+      <FileName>BAL\Messages.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BulabulaApp.Photo_Post" Collapsed="true">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAACEAQAABAEAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>BAL\Photo_Post.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BulabulaApp.Post" Collapsed="true">
+    <Position X="9.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAEAAAABAUBAAABAQAAAAAAAAQAAAABAQAAABE=</HashCode>
+      <FileName>BAL\Post.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BulabulaApp.Question" Collapsed="true">
+    <Position X="4" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAABwgAAAAAAAgAAAAIAgAAAAAAAABHAAQAQgAEA=</HashCode>
+      <FileName>BAL\Question.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BulabulaApp.Rating" Collapsed="true">
+    <Position X="7.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAEBAAABAQAAACAIAAAgAABAAAAAQAA=</HashCode>
+      <FileName>BAL\Rating.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BulabulaApp.Report" Collapsed="true">
+    <Position X="9.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAEJAAABCQAABCAAAAQkAABABAIAQAA=</HashCode>
+      <FileName>BAL\Report.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BulabulaApp.Response" Collapsed="true">
+    <Position X="0.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAAQAQQAEAEAAAAAABAAAAAQAAAA=</HashCode>
+      <FileName>BAL\Response.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BulabulaApp.Status" Collapsed="true">
+    <Position X="7.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAACAAAAAAAAAAAAAAAAgAAAAIAAAAAAAA=</HashCode>
+      <FileName>BAL\Status.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BulabulaApp.Survey" Collapsed="true">
+    <Position X="9.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAgAAIAIAACBAAAAAAAAAAAAAAgQAAAIEA=</HashCode>
+      <FileName>BAL\Survey.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BulabulaApp.Tag" Collapsed="true">
+    <Position X="12.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAEBAAABAAAAAAABAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>BAL\Tag.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BulabulaApp.Text_Post" Collapsed="true">
+    <Position X="2.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAACAEAAAABAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BAL\Text_Post.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BulabulaApp.Video_Post" Collapsed="true">
+    <Position X="4" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEgAAABIAAAAAAAAAAQAAQAGAAEAAg=</HashCode>
+      <FileName>BAL\Video_Post.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BulabulaApp.ActiveDirectory" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAEAAAABAAAAAAAAAACQAEQAgAABAAIEAAAAgBAAAA=</HashCode>
+      <FileName>DAL\ActiveDirectory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BulabulaApp.AdministratorTasksDAL" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAEAgAAAAAAAAAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>DAL\AdministratorTasksDAL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BulabulaApp.FriendshipDAL" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAIAAgAAAAAIAQAAAAAQAAAACAgAAIABAA=</HashCode>
+      <FileName>DAL\FriendshipDAL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BulabulaApp.MemberInfoDAL" Collapsed="true">
+    <Position X="11" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAgAAAAAAAAAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>DAL\MemberInfoDAL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BulabulaApp.MessagesDAL" Collapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEgACAEAAAAAAxAAAAEAAYAAAAAAAAEACACQACAAAA=</HashCode>
+      <FileName>DAL\MessagesDAL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BulabulaApp.NewsfeedDAL" Collapsed="true">
+    <Position X="5.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAIAAAAAgCAAAAABQAAEAAAAGAACBCAAAgAAA=</HashCode>
+      <FileName>DAL\NewsfeedDAL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BulabulaApp.RateAndTagDAL" Collapsed="true">
+    <Position X="5.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIABAgAIAEAAAAAIAAAIAAAASAAAAIAAAI=</HashCode>
+      <FileName>DAL\RateAndTagDAL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BulabulaApp.ReportPostDAL">
+    <Position X="14.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAgAAgAKAAAAAAAAAAAAQCAAAACAAAA=</HashCode>
+      <FileName>DAL\ReportPostDAL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BulabulaApp.SurveyDAL" Collapsed="true">
+    <Position X="11" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAgABAAAAAAAgAAAAAAAAAAAAAAAACACAAAABAAAA=</HashCode>
+      <FileName>DAL\SurveyDAL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BulabulaApp.WebForm2" Collapsed="true">
+    <Position X="7.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>friends.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BulabulaApp.Global" Collapsed="true">
+    <Position X="9.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAAAAAAAAAECIBAAAAAAAAAA=</HashCode>
+      <FileName>Global.asax.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BulabulaApp.WebForm5">
+    <Position X="12.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAIAAAA=</HashCode>
+      <FileName>group.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BulabulaApp.Home" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>0AAAgAAAEAAABQAACAAAAAAACAAAAAAAAQAAAAIAAAA=</HashCode>
+      <FileName>Home.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BulabulaApp.Login" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAACAAAIAEEE=</HashCode>
+      <FileName>Login.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BulabulaApp.SiteMaster" Collapsed="true">
+    <Position X="4" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAwSIAAAAAIABAACAAAAAIQAAAAAAAAAAACIAAEA=</HashCode>
+      <FileName>MasterPage.Master.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BulabulaApp.About" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAgACAAAAIAAIA=</HashCode>
+      <FileName>Messages\ComposeMessage.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BulabulaApp.WebForm3" Collapsed="true">
+    <Position X="9.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAAAAAQAAAAAQAAAIAAAA=</HashCode>
+      <FileName>Messages\Inbox.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BulabulaApp.WebForm4" Collapsed="true">
+    <Position X="11" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAAAAAAAAAAAAAIAIAAQAAAIAAAA=</HashCode>
+      <FileName>Messages\ViewMessages.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BulabulaApp._Default" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAIAAAA=</HashCode>
+      <FileName>Profile.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BulabulaApp.WebForm1" Collapsed="true">
+    <Position X="5.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>rightColumn.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BulabulaApp.testRun" Collapsed="true">
+    <Position X="0.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>testRun.asmx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Properties.Group_Member" Collapsed="true">
+    <Position X="12.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAABAABAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DAL\Group_Member.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SSTCryptographer" Collapsed="true">
+    <Position X="5.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAQQAACAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Other_Classes\SSTCryptographer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BulabulaApp.WebServices.FriendWebservice" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAEAAAAAAAAAAAAAAAAAAAAQAAAACAAAAAgAAAAAAA=</HashCode>
+      <FileName>WebServices\FriendWebservice.asmx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BulabulaApp.WebServices.postsWebservice" Collapsed="true">
+    <Position X="11" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>WebServices\postsWebservice.asmx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BulabulaApp.WebServices.processComments" Collapsed="true">
+    <Position X="12.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EhQAAAAYAAAIAABAAAAgAAgAAAoAQAAABAAEAYAIAAA=</HashCode>
+      <FileName>WebServices\processComments.asmx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BulabulaApp.WebServices.processMessages" Collapsed="true">
+    <Position X="2.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAGAAAAAAAAAAQAAIAgAAAASAAAA=</HashCode>
+      <FileName>WebServices\processMessages.asmx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BulabulaApp.WebServices.Reporting" Collapsed="true">
+    <Position X="11" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>WebServices\Reporting.asmx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BulabulaApp.WebServices.Searchfriend" Collapsed="true">
+    <Position X="2.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAAAAAAAAAAAwAAIBgAAAAAAAAA=</HashCode>
+      <FileName>WebServices\Searchfriend.asmx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
